@@ -10,9 +10,11 @@ their navigation system.
 > - The zones have been very carefully surveyed ahead of time and are deemed safe for exploration within the landing terrain bounds, as represented by a single cartesian coordinate - for example: (5, 5).
 > - The rover understands the cardinal points and can face either East (E), West (W), North (N) or South (S) at any given time.
 > - The rover understands three commands:
-    >>> M-Move one space forward in the direction it is facing
-    >>> R-rotate 90 degrees to the right
-    >>> L-rotate 90 degrees to the left
+```
+M-Move one space forward in the direction it is facing
+R-rotate 90 degrees to the right
+L-rotate 90 degrees to the left
+```
     
 > - Due to the transmission delay in communicating with the rover on Mars, you are only able to send the rover a single list of commands.
 > - These commands will be executed by the rover and its resulting location sent back to HQ. This is an example of the list of commands sent to the rover:
@@ -113,6 +115,7 @@ public static void main(String args[]) {
   #### Testing
 --------------------
 >>>To run more tests please execute the Unit Tests provided in the project which can be found in the path below, the Unit Tests test multiple scenarios. 
+
 ```
  (YOUR_LOCAL_DRIVE)\(DIRECTORY)\..\..\marsrover\src\test\java\rover\mars\MarsRoverTest.java
 ```
