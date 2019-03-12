@@ -115,5 +115,4 @@ public static void main(String args[]) {
 >>>To run more tests please execute the Unit Tests provided in the project which can be found in the path below, the Unit Tests test multiple scenarios. 
 ```
  (YOUR_LOCAL_DRIVE)\(DIRECTORY)\..\..\marsrover\src\test\java\rover\mars\MarsRoverTest.java
-```# marsrover
-# marsrover
+```
